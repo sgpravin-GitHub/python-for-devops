@@ -33,6 +33,11 @@ elif (operation == "multi"):
 else:
     print(div(num1,num2))
 
+#before running this file, define the environment variables
+#export fname="pravin"
+#export lname="kumar"
+#export password="test@123"
+#export tokenpin="adfadsferq3324kj"
 
 print("first name is :", os.getenv("fname"))
 print("last name is : ", os.getenv("lname"))
