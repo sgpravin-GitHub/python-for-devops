@@ -1,4 +1,4 @@
-#This function will ask the use the give the folder name and then 
+#This function will ask the user the give the folder name and then 
 # it will list the files present in that folder
 
 import os
