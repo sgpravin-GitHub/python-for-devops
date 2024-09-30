@@ -2,6 +2,8 @@
 
 import requests
 
+#/repos/{owner}/{repo}/pulls
+
 response = requests.get("https://api.github.com/repos/kubernetes/kubernetes/pulls")
 output = response.json()
 # print(type(output)) => list
