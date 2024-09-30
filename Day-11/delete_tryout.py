@@ -24,3 +24,8 @@ student_info = [
         "school" : "KLE school"
     }
 ]
+
+print(student_info[0]["student_name"] + "===" + student_info[1]["student_name"] + "===" + student_info[2]["student_name"] + "===" + student_info[3]["student_name"])
+print(student_info[0]["age"] + "===" + student_info[1]["age"] + "===" + student_info[2]["age"] + "===" + student_info[3]["age"])
+print(student_info[0]["class"] + "===" + student_info[1]["class"] + "===" + student_info[2]["class"] + "===" + student_info[3]["class"])
+print(student_info[0]["school"] + "===" + student_info[1]["school"] + "===" + student_info[2]["school"] + "===" + student_info[3]["school"])
