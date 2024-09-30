@@ -11,5 +11,5 @@ for i in range(len(output)): #it give the whole list of users in the json file
     print(i , " = ", output[i]["user"]["login"])
 
 #to delete a key from dectionary:
-del output[0]["name"]["id"]
+del output[0]["name"]["id"]  # del my_doc["city"]
 
